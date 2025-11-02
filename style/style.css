@@ -1,0 +1,634 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+.clear {
+    clear: both;
+}
+
+.hero .container {
+    width: 80%;
+    margin: auto;
+    padding: 80px 24px;
+}
+
+.hero .container .hero_cont {
+    width: 50%;
+    float: left;
+
+}
+
+.hero .container .hero_cont h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+    margin-bottom: 30px;
+}
+
+.hero .container .hero_cont p {
+    font-size: 20px;
+    font-weight: 400;
+    color: oklch(0.446 0.03 256.802);
+    line-height: 33px;
+    text-align: left;
+}
+
+.hero .container .hero_img {
+    width: 40%;
+    float: right;
+    padding-top: 20px;
+
+}
+
+.hero .container .hero_img img {
+    border-radius: 15px;
+    width: 384px;
+    height: 384px;
+}
+
+.hero .container .hero_cont button {
+    padding: 20px 15px;
+    font-style: bold;
+    font-size: 18px;
+    line-height: 28px;
+    float: left;
+    margin: 20px auto;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.hero .container .hero_cont .btn1 {
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    border: none;
+}
+
+.hero .container .hero_cont .btn2 {
+    background-color: transparent;
+    color:
+        oklch(0.373 0.034 259.733);
+    border: 2px solid rgb(114, 120, 133);
+
+}
+
+.why-choose-us .container {
+    width: 80%;
+    margin: auto;
+    padding: 30px 24px;
+
+}
+
+.why-choose-us .container .title {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.why-choose-us .container .title h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 25px;
+    color: oklch(0.21 0.034 264.665)
+}
+
+.why-choose-us .container .title p {
+    font-size: 20px;
+    color: oklch(0.446 0.03 256.802);
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.why-choose-us .container .cardes {
+
+    margin: auto;
+    width: 100%;
+
+
+}
+
+.why-choose-us .container .cardes .b-card {
+    background-color: #DBEAFE;
+    width: 30%;
+    float: left;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px 10px;
+    margin-right: 3%;
+    height: 300px;
+
+}
+
+.why-choose-us .container .cardes .g-card {
+    background-color: #D0FAE5;
+    width: 30%;
+    float: left;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px 10px;
+    margin-right: 3%;
+    height: 300px;
+
+}
+
+.why-choose-us .container .cardes .p-card {
+    background-color: #F3E8FF;
+    width: 30%;
+    float: left;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px 10px;
+    height: 300px;
+}
+
+.why-choose-us .container .cardes .b-card .big-shade {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: #155DFC;
+    border-radius: 15px;
+    position: relative;
+}
+
+.why-choose-us .container .cardes .b-card .big-shade .small-shade {
+    width: 40px;
+    height: 40px;
+    margin: 15 auto;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.why-choose-us .container .cardes .g-card .big-shade {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: #00C9A7;
+    border-radius: 15px;
+    position: relative;
+}
+
+.why-choose-us .container .cardes .g-card .big-shade .small-shade {
+    width: 40px;
+    height: 40px;
+    margin: 15 auto;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.why-choose-us .container .cardes .p-card .big-shade {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: #AE22FF;
+    border-radius: 15px;
+    position: relative;
+}
+
+.why-choose-us .container .cardes .p-card .big-shade .small-shade {
+    width: 40px;
+    height: 40px;
+    margin: 15 auto;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.why-choose-us .container .cardes h3 {
+    color: oklch(0.21 0.034 264.665);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.why-choose-us .container .cardes p {
+    font-size: 15px;
+    color: oklch(0.446 0.03 256.802);
+    line-height: 28px;
+    padding: 0 10px;
+}
+
+.more-benefits {
+    width: 80%;
+    margin: auto;
+    padding: 40px 24px;
+}
+
+.more-benefits .image {
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+}
+
+.more-benefits .image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.more-benefits .content {
+    width: 45%;
+    float: right;
+    padding-top: 30px;
+}
+
+.more-benefits .content h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 25px;
+    color: oklch(0.21 0.034 264.665);
+}
+
+.more-benefits .content .demo h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    color: oklch(0.21 0.034 264.665);
+
+}
+
+.more-benefits .content .demo p {
+    font-size: 16px;
+    color: oklch(0.446 0.03 256.802);
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.content .demo {
+    border-left: 4px solid black;
+    padding-left: 24px;
+}
+
+.testimonials {
+    width: 100%;
+    background-color: #F9FAFB;
+    margin-top: 50px;
+
+
+}
+
+.testimonials .container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.testimonials .container .title {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.testimonials .container .title h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 25px;
+    color: oklch(0.21 0.034 264.665)
+}
+
+.testimonials .container .title p {
+    font-size: 20px;
+    color: oklch(0.446 0.03 256.802);
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.testimonials .container .reviews {
+    width: 100%;
+    text-align: center;
+}
+
+.reviews .card {
+    width: 30%;
+    float: left;
+    margin: auto;
+    text-align: center;
+    padding: 25px 20px;
+    margin-right: 3%;
+    border-radius: 15px;
+    margin-bottom: 50px;
+
+}
+
+.card1 {
+    background-color: #EFF6FF;
+    border: #b4d5ff 1px solid;
+}
+
+.card2 {
+    background-color: #ECFDF5;
+    border: #a6f4c5 1px solid;
+}
+
+.card3 {
+    background-color: #FAF5FF;
+    border: #e9d5ff 1px solid;
+}
+
+.reviews .card-h img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    float: left;
+    margin-right: 15px;
+
+
+}
+
+.reviews .card-h h4,
+.reviews .card-h p {
+    float: left;
+    padding-top: 10px;
+
+
+}
+
+.reviews .card-b p {
+    font-size: 16px;
+    color: oklch(0.446 0.03 256.802);
+    line-height: 24px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.ststistics {
+    width: 100%;
+    background-color: #F1F5F9;
+    margin: auto;
+    padding: 60px 30px;
+    border-radius: 15px;
+    text-align: center;
+    border: #ededed 1px solid;
+
+}
+
+.ststistics .range {
+    width: 25%;
+    text-align: center;
+    float: left;
+
+}
+
+.ststistics .range h2 {
+    font-size: 40px;
+
+}
+
+.ststistics .range p {
+    font-size: 15px;
+    color: #616161;
+    padding-top: 10px;
+}
+
+.container .title {
+    text-align: center;
+    width: 65%;
+    margin: auto;
+}
+
+.container .title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: oklch(0.21 0.034 264.665);
+    line-height: 40px;
+
+}
+
+.container .title p {
+    font-size: 20px;
+    font-weight: 400;
+    color: oklch(0.446 0.03 256.802);
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.membership-form {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.membership-form .container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+form {
+    background: #F9FAFB;
+    padding: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.form-group {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.first-name,
+.last-name {
+    width: 48%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.last-name {
+    float: right;
+}
+
+.email,
+.phone,
+.membership,
+.fitness-goals {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: oklch(0.373 0.034 259.733);
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 20px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 8px;
+    font-size: 16px;
+    background-color: #F9FAFB;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    background-color: #000;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.footer {
+    background-color: #101828;
+}
+
+.footer .container {
+    width: 80%;
+    margin: auto;
+
+}
+
+.footer .container .content {
+    width: 100%;
+    padding: 100px 0;
+
+}
+
+.footer .container .content .footer-info {
+    width: 50%;
+    float: left;
+}
+
+.footer .container .content .footer-info h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+.footer .container .content .footer-info p {
+    font-size: 18px;
+    font-weight: 400;
+    color: oklch(0.707 0.022 261.325);
+    line-height: 29px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.footer .container .content a {
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: oklch(0.707 0.022 261.325);
+    line-height: 24px;
+    text-align: left;
+}
+
+.footer .container .content .quick-links {
+    width: 25%;
+    float: left;
+}
+
+.footer .container .content .quick-links ul {
+    list-style: none;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: oklch(0.707 0.022 261.325);
+    line-height: 40px;
+    text-align: left;
+
+}
+
+.footer .container .content .contact-info {
+    width: 25%;
+    float: left;
+}
+
+.footer .container .content .contact-info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: oklch(0.707 0.022 261.325);
+    text-align: left;
+}
+
+.footer .container .content .contact-info strong {
+    color: white;
+    font-weight: 500;
+    line-height: 35px;
+
+}
+
+.footer .container .content h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.footer .container hr {
+    border: none;
+    height: 0.1px;
+    background-color: oklch(0.707 0.022 261.325);
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.footer .container .copy-right {
+    margin-top: -70px;
+}
+
+.footer .container .copy-right p {
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: oklch(0.707 0.022 261.325);
+    margin-bottom: 100px;
+}
+
+.footer .container .copy-right a {
+    float: right;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: oklch(0.707 0.022 261.325);
+    margin-bottom: 100px;
+    padding-left: 30px;
+
+
+}
